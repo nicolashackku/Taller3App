@@ -1,0 +1,4 @@
+<resources>
+    <item type="mipmap" name="ic_launcher">@drawable/ic_route_launcher</item>
+    <item type="mipmap" name="ic_launcher_round">@drawable/ic_route_launcher</item>
+</resources>

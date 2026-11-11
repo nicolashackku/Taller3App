@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Ruta Viva</string>
+
+    <!-- Naming: {component}_{purpose}_{uiElement} -->
+
+    <!-- LoginForm -->
+    <string name="login_form_email_label">Correo</string>
+    <string name="login_form_email_invalid_supporting_text">Ingrese un correo válido</string>
+    <string name="login_form_password_label">Contraseña</string>
+    <string name="login_form_password_invalid_supporting_text">Mínimo 8 caracteres y un símbolo especial</string>
+    <string name="login_form_show_password_icon">Mostrar contraseña</string>
+    <string name="login_form_hide_password_icon">Ocultar contraseña</string>
+    <string name="login_form_login_button">Ingresar</string>
+    <string name="login_form_register_button">Registrarse</string>
+    <string name="login_form_forgot_password_button">¿Olvidó su contraseña?</string>
+
+    <!-- RegisterForm -->
+    <string name="register_form_email_label">Correo</string>
+    <string name="register_form_email_invalid_supporting_text">Ingrese un correo válido</string>
+    <string name="register_form_display_name_label">Nombre</string>
+    <string name="register_form_display_name_invalid_supporting_text">Ingrese su nombre</string>
+    <string name="register_form_phone_label">Teléfono</string>
+    <string name="register_form_phone_invalid_supporting_text">Ingrese un número de teléfono válido</string>
+    <string name="register_form_password_label">Contraseña</string>
+    <string name="register_form_password_invalid_supporting_text">Mínimo 8 caracteres y un símbolo especial</string>
+    <string name="register_form_confirm_password_label">Confirmar contraseña</string>
+    <string name="register_form_password_mismatch_supporting_text">Las contraseñas no coinciden</string>
+    <string name="register_form_show_password_icon">Mostrar contraseña</string>
+    <string name="register_form_hide_password_icon">Ocultar contraseña</string>
+    <string name="register_form_register_button">Registrarse</string>
+
+    <!-- EditForm -->
+    <string name="edit_form_email_label">Correo</string>
+    <string name="edit_form_display_name_label">Nombre</string>
+    <string name="edit_form_phone_label">Teléfono</string>
+    <string name="edit_form_phone_invalid_supporting_text">Ingrese un número de teléfono válido</string>
+    <string name="edit_form_save_changes_button">Guardar cambios</string>
+    <string name="edit_form_new_password_label">Nueva contraseña</string>
+    <string name="edit_form_password_invalid_supporting_text">Mínimo 8 caracteres y un símbolo especial</string>
+    <string name="edit_form_confirm_password_label">Confirmar nueva contraseña</string>
+    <string name="edit_form_password_mismatch_supporting_text">Las contraseñas no coinciden</string>
+    <string name="edit_form_show_password_icon">Mostrar contraseña</string>
+    <string name="edit_form_hide_password_icon">Ocultar contraseña</string>
+    <string name="edit_form_change_password_button">Cambiar contraseña</string>
+
+    <!-- ProfileImage -->
+    <string name="profile_image_profile_picture_image">Foto de perfil</string>
+    <string name="profile_image_take_picture_icon">Tomar foto de perfil</string>
+    <string name="profile_image_captured_photo_image">Foto tomada</string>
+    <string name="profile_image_remove_photo_icon">Quitar foto</string>
+    <string name="profile_image_camera_permission_text">Se necesita el permiso de cámara para tomar la foto</string>
+
+    <!-- UserPortrait -->
+    <string name="user_portrait_profile_picture_image">Foto de perfil de %1$s</string>
+    <string name="user_portrait_last_login_text">Último ingreso: %1$s</string>
+
+    <!-- UserMarker -->
+    <string name="user_marker_photo_image">Marcador de %1$s</string>
+
+    <!-- CameraPreview -->
+    <string name="camera_preview_switch_camera_icon">Cambiar de cámara</string>
+    <string name="camera_preview_take_photo_icon">Tomar foto</string>
+    <string name="camera_preview_taking_photo_toast">Tomando foto…</string>
+
+    <!-- ErrorMessage -->
+    <string name="error_message_dismiss_icon">Cerrar error</string>
+
+    <!-- Permission cards -->
+    <string name="no_permission_card_text">No se concedió el permiso de localización, la aplicación no funcionará</string>
+    <string name="request_permission_card_text">El uso de la localización es necesario, por favor acepte el permiso</string>
+    <string name="request_permission_card_button">Solicitar permiso</string>
+
+    <!-- HomeScreen -->
+    <string name="home_screen_tracking_on_text">En línea</string>
+    <string name="home_screen_tracking_off_text">Desconectado</string>
+
+    <!-- MapComponent -->
+    <string name="map_component_center_icon">Centrar en mi ubicación</string>
+
+    <!-- NavHost -->
+    <string name="nav_host_profile_item">Mi perfil</string>
+    <string name="nav_host_logout_button">Cerrar sesión</string>
+    <string name="nav_host_open_menu_icon">Abrir menú</string>
+    <string name="nav_host_user_fallback_text">Usuario</string>
+    <string name="nav_host_last_login_fallback_text">-</string>
+
+    <!-- ProfileScreen -->
+    <string name="profile_screen_guest_fallback_text">Invitado</string>
+    <string name="profile_screen_image_updated_toast">Foto de perfil actualizada</string>
+    <string name="profile_screen_updated_toast">Perfil actualizado</string>
+
+    <!-- RegisterScreen -->
+    <string name="register_screen_profile_save_error_message">No se pudo guardar el perfil del usuario</string>
+
+    <!-- ViewModels -->
+    <string name="auth_view_model_email_required_error">El correo es obligatorio</string>
+    <string name="auth_view_model_password_required_error">La contraseña es obligatoria</string>
+    <string name="auth_view_model_no_user_error">No hay una sesión iniciada</string>
+    <string name="auth_view_model_unknown_error">Error desconocido</string>
+    <string name="auth_view_model_password_reset_sent_message">Correo de recuperación enviado</string>
+    <string name="auth_view_model_password_updated_message">Contraseña actualizada</string>
+    <string name="firestore_view_model_unknown_error">Error desconocido</string>
+    <string name="storage_view_model_unknown_error">Error desconocido</string>
+    <string name="login_screen_title">Inicia sesión</string>
+    <string name="nav_host_map_title">Mapa</string>
+</resources>
